@@ -1,14 +1,13 @@
+![53AIHub](https://oss.ibos.cn/53ai/common/53AIHub_banner.png)
+
 <div align="center">
   <a href="./README.md"><img alt="README in English" src="https://img.shields.io/badge/English-d9d9d9"></a>
   <a href="./README_CN.md"><img alt="简体中文版自述文件" src="https://img.shields.io/badge/简体中文-d9d9d9"></a>
   <a href="./README_JA.md"><img alt="日本語のREADME" src="https://img.shields.io/badge/日本語-d9d9d9"></a>
 </div>
-
-![53AIHub](https://oss.ibos.cn/53ai/common/53AIHub_banner.png)
-
 <div>
 <a href="https://hub.53ai.com">云服务</a> ·
-<a href="https://hub.53ai.com/">独立部署</a> ·
+<a href="https://docs.53ai.com/%E5%85%A5%E9%97%A8/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2">本地部署</a> ·
 <a href="https://docs.53ai.com/">产品文档</a> ·
 <a href="https://aihub.53ai.com">演示站</a>
 
@@ -16,7 +15,7 @@
 
 **53AIHub** 是一款开源的AI门户，零门槛实现对智能体、提示词与AI工具的发布与运营，让你快速搭建生产级的AI门户。它实现了无缝对接字节扣子、腾讯元器、Dify、FastGPT、53AI Studio等智能体开发平台和阿里百炼、火山引擎、百度千帆等MaaS平台。
 
-以下是其核心功能列表： 
+以下是其核心功能列表： </br> </br>
 
 **1. 平台接入**:
 主流的智能体开发平台、云计算平台、大模型平台的接入。
@@ -109,14 +108,14 @@
 
 ## 使用 53AI Hub
 
-* **云服务**
+* **云服务 </br>**
   我们提供[ 53AI Hub 云服务](https://hub.53ai.com)，用户可以在线申请开通。云服务包含免费版、标准版和企业版，企业版提供了53AI Hub的全部功能，在免费版本中支持接入10个智能体及100个注册用户。
-* **社区版**
+* **社区版</br>**
   人员规模小于200人或营业收入低于5000万的中小企业和创业团队可以将免费使用社区版
-  使用这个[入门指南](#快速启动)快速在您自己的服务器上运行 53AI Hub。
+  使用这个[入门指南](https://docs.53ai.com/%E5%85%A5%E9%97%A8/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8)快速在您自己的服务器上运行 53AI Hub。
   阅读这个[产品文档](https://docs.53ai.com)进行进一步的参考和更深入的了解。
-* **旗舰版**
-  我们提供可以私有化部署且打通企微、钉钉、飞书组织架构的旗舰版，如果您需要个性化定制功能。可以给我们发送[电子邮件](mailto\:hub@53ai.com?subject=\[GitHub]商业授权)讨论你企业的个性化需求。
+* **私有定制版</br>**
+  我们提供可以私有化部署且打通企微、钉钉、飞书组织架构的旗舰版，如果您需要个性化定制功能。可以给我们发送[电子邮件](mailto\:hub@53ai.com?subject=\[GitHub]商业授权)讨论你企业的个性化需求。 </br>
 
 ## 保持领先
 
@@ -141,26 +140,26 @@ cp .env.example .env
 docker compose up -d
 ```
 
-运行后，可以在浏览器上访问 [`http://localhost:3000`](http://localhost:3000) 进入 53AI Hub 站点后台并开始初始化安装操作。
+运行后，可以在浏览器上访问 [`http://localhost`](http://localhost) 进入 53AI Hub 站点后台并开始初始化安装操作。
 
 ### 自定义配置
 
 如果您需要自定义配置，请参考 `.env.example`文件中的注释，复制一个改名为 `.env`并更新文件中对应的值。
 此外，您可能需要根据您的具体部署环境和需求对 `docker-compose.yaml`文件本身进行调整，例如更改镜像版本、端口映射或卷挂载。完成任何更改后，请重新运行 `docker-compose up -d`。您可以在此处找到可用环境变量的完整列表。
 
-## Contributing
+## 参与项目
 
-对于那些想要贡献代码的人，请参阅我们的贡献指南。
+对于那些想要贡献代码的人，请参阅[成为贡献者](https://docs.53ai.com/%E7%A4%BE%E5%8C%BA/%E6%88%90%E4%B8%BA%E8%B4%A1%E7%8C%AE%E8%80%85)。
 同时，请考虑通过社交媒体、活动和会议来支持 53AI Hub 的分享。
 
-> 我们正在寻找贡献者来帮助将 53AI Hub 翻译成除了中文和英文之外的其他语言。如果您有兴趣帮助，请通过微信社群联系我们。
-
 ## 社区与支持
+
+> 我们正在寻找贡献者来帮助将 53AI Hub 翻译成除了中文和英文之外的其他语言。如果您有兴趣帮助，请通联系我们。
 
 我们欢迎您为 53AI 做出贡献，以帮助改善 53AI。包括：提交代码、问题、新想法，或分享您基于 53AI 创建的有趣且有用的 AI 应用程序。同时，我们也欢迎您在不同的活动、会议和社交媒体上分享 53AI。
 
 * [Github Discussion](https://github.com/53ai/53aihub/discussions)👉：分享您的应用程序并与社区交流。
-* [GitHub Issues](https://github.com/53ai/53aihub/issues)👉：使用 53AI Hub 时遇到的错误和问题，请参阅[贡献指南](CONTRIBUTING.md)。
+* [GitHub Issues](https://github.com/53ai/53aihub/issues)👉：使用 53AI Hub 时遇到的错误和问题。
 
 ## 合规认证
 
@@ -171,8 +170,9 @@ docker compose up -d
 
 ## 安全问题
 
-为了保护您的隐私，请避免在 GitHub 上发布安全问题。发送问题至 security@53ai.com，我们将为您做更细致的解答。
+为了保护您的隐私，请避免在 GitHub 上发布安全问题。发送问题至 <hub@53ai.com>，我们将为您做更细致的解答。
 
 ## License
 
-本仓库遵循 [53AI Open Source License](LICENSE) 开源协议，该许可证本质上是 Apache 2.0，但有一些额外的限制。
+本仓库遵循 [53AI Open Source License](https://docs.53ai.com/%E5%85%A5%E9%97%A8/%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE) 开源协议，该许可证本质上是 Apache 2.0，但有一些额外的限制。
+

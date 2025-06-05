@@ -1,0 +1,129 @@
+{
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "Mint Starter Kit",
+    "colors": {
+        "primary": "#16A34A",
+        "light": "#07C983",
+        "dark": "#15803D"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "帮助手册",
+                "groups": [
+                    {
+                        "group": "入门",
+                        "pages": [
+                            "/入门/欢迎使用",
+                            "/入门/技术特性",
+                            "/入门/云服务",
+                            "/入门/本地部署",
+                            "/入门/开源许可协议",
+                            "/入门/产品路线图"
+                        ]
+                    },
+                    {
+                        "group": "手册",
+                        "pages": [
+                            {
+                                "group": "站点配置",
+                                "pages": [
+                                    "/手册/站点配置/站点信息",
+                                    "/手册/站点配置/平台接入",
+                                    "/手册/站点配置/支付配置",
+                                    "/手册/站点配置/三方统计",
+                                    "/手册/站点配置/订阅服务",
+                                    "/手册/站点配置/站点域名"
+                                ]
+                            },
+                            {
+                                "group": "应用管理",
+                                "pages": [
+                                    "/手册/应用管理/智能体",
+                                    "/手册/应用管理/AI产品"
+                                ]
+                            },
+                            {
+                                "group": "运营管理",
+                                "pages": [
+                                    "/手册/运营管理/订单数据",
+                                    "/手册/运营管理/用户数据"
+                                ]
+                            },
+                            {
+                                "group": "站点装修",
+                                "pages": [
+                                    "/手册/站点装修/模板风格",
+                                    "/手册/站点装修/Banner图"
+                                ]
+                            },
+                            {
+                                "group": "用户前台",
+                                "pages": [
+                                    "/手册/用户前台/用户使用"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "社区",
+                        "pages": [
+                            "/社区/成为贡献者",
+                            "/社区/为文档做出贡献",
+                            "/社区/需求支持"
+                        ]
+                    },
+                    {
+                        "group": "联系",
+                        "pages": [
+                            "/联系/联系我们"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "开发文档",
+                "groups": [
+                    {
+                        "group": "开发",
+                        "pages": [
+                            "/开发/后端开发",
+                            "/开发/站点前台开发",
+                            "/开发/管理后台前端",
+                            "/开发/问题模板",
+                            "/开发/更新日志",
+                            "/开发/贡献指引",
+                            "/开发/行为准则",
+                            "/开发/安全策略"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:hub@53ai.com"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "53AIHub",
+            "href": "https://hub.53ai.com"
+        }
+    },
+    "footer": {
+        "socials": {
+            "github": "https://github.com/53AI/53AIHub",
+            "website": "https://www.53ai.com"
+        }
+    }
+}

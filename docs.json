@@ -92,6 +92,28 @@
                         ]
                     }
                 ]
+            },
+             {
+                "tab": "53AI Studio",
+                "groups": [
+                    {
+                        "group": "入门",
+                        "pages": [
+                            "/studio/入门/欢迎使用"
+                        ]
+                    }
+                ]
+            },
+             {
+                "tab": "53AI KM",
+                "groups": [
+                    {
+                        "group": "入门",
+                        "pages": [
+                            "/km/入门/欢迎使用"
+                        ]
+                    }
+                ]
             }
         ]
     },

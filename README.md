@@ -3,8 +3,8 @@
 <div>
 <a href="https://hub.53ai.com">云服务</a> ·
 <a href="https://hub.53ai.com/">独立部署</a> ·
-<a href="https://docs.53ai.com/53AIHub">产品文档</a> ·
-<a href="https://langgpt.53ai.com">演示站</a>
+<a href="https://docs.53ai.com/">产品文档</a> ·
+<a href="https://aihub.53ai.com">演示站</a>
 
 </div>
 
@@ -155,10 +155,6 @@ docker compose up -d
 
 * [Github Discussion](https://github.com/53ai/53aihub/discussions)👉：分享您的应用程序并与社区交流。
 * [GitHub Issues](https://github.com/53ai/53aihub/issues)👉：使用 53AI Hub 时遇到的错误和问题，请参阅[贡献指南](CONTRIBUTING.md)。
-* [邮件支持](mailto\:hello@53ai.com?subject=\[GitHub]Questions)👉：关于使用 53AI Hub 的问题。
-* [Discord](https://discord.gg/FngNHpbcY7)👉：分享您的应用程序并与社区交流。
-* 微信社群👉：分享您的 AI 门户并与社区交流。
-* [商业许可](mailto\:business@53ai.com?subject=\[GitHub]Business%20License%20Inquiry)。👉：有关商业用途许可 53AI 的商业咨询。
 
 ## 合规认证
 

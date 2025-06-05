@@ -4,17 +4,19 @@
 <a href="https://hub.53ai.com">云服务</a> ·
 <a href="https://hub.53ai.com/">独立部署</a> ·
 <a href="https://docs.53ai.com/53AIHub">产品文档</a> ·
-<a href="https://hub.53ai.com">产品总览</a>
+<a href="https://langgpt.53ai.com">演示站</a>
 
 </div>
 
-**53AIHub** 是一款开源的智能体(AI Agent)发布与运营平台。它实现了无缝对接字节扣子、腾讯元器、Dify、FastGPT、53AI Studio等智能体开发平台和阿里百炼、火山引擎、百度千帆等MaaS平台，使运营人员，让你可以快速搭建生产级的AI门户。以下是其核心功能列表： </br> </br>
+**53AIHub** 是一款开源的AI门户，零门槛实现对智能体、提示词与AI工具的发布与运营，让你快速搭建生产级的AI门户。它实现了无缝对接字节扣子、腾讯元器、Dify、FastGPT、53AI Studio等智能体开发平台和阿里百炼、火山引擎、百度千帆等MaaS平台。
+
+以下是其核心功能列表： </br> </br>
 
 **1. 平台接入**:
 主流的智能体开发平台、云计算平台、大模型平台的接入。
 
-**2. 智能体发布**:
-支持智能体分组、排序、权限等设置。
+**2. 应用管理**:
+支持智能体、提示词、AI工具的发布、管理、分组、排序、使用权限等设置。
 
 **3. 用户订阅**:
 设置不同级别的订阅权限及订阅价格。
@@ -39,7 +41,7 @@
     <th align="center">53AI Hub</th>
     <th align="center">NextChat</th>
     <th align="center">lobehub</th>
-    <th align="center">Chatbox AI</th>
+    <th align="center">Cherry Studio</th>
   </tr>
   <tr>
     <td align="center">自定义界面</td>
@@ -49,35 +51,35 @@
     <td align="center">固定风格</td>
   </tr>
   <tr>
-    <td align="center">权限控制</td>
+    <td align="center">使用权限</td>
     <td align="center">企业级权限</td>
-    <td align="center">个人</td>
-    <td align="center">个人</td>
-    <td align="center">个人</td>
+    <td align="center">无</td>
+    <td align="center">无</td>
+    <td align="center">无</td>
   </tr>
   <tr>
-    <td align="center">用户管理</td>
+    <td align="center">智能体接入</td>
     <td align="center">✅</td>
     <td align="center">❌</td>
     <td align="center">❌</td>
     <td align="center">❌</td>
   </tr>
   <tr>
-    <td align="center">智能体</td>
+    <td align="center">大模型接入</td>
     <td align="center">✅</td>
-    <td align="center">❌</td>
-    <td align="center">❌</td>
-    <td align="center">❌</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
   </tr>
   <tr>
-    <td align="center">提示词</td>
+    <td align="center">注册用户</td>
     <td align="center">✅</td>
-    <td align="center">❌</td>
     <td align="center">✅</td>
-    <td align="center">❌</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
   </tr>
   <tr>
-    <td align="center">AI导航</td>
+    <td align="center">内部用户</td>
     <td align="center">✅</td>
     <td align="center">❌</td>
     <td align="center">❌</td>
@@ -85,7 +87,7 @@
   </tr>
   <tr>
     <td align="center">单点登录</td>
-    <td align="center">LDAP/AD、企微、钉钉、飞书</td>
+    <td align="center">企微、钉钉、飞书</td>
     <td align="center">❌</td>
     <td align="center">❌</td>
     <td align="center">❌</td>
@@ -102,18 +104,17 @@
 ## 使用 53AI Hub
 
 * **云服务 </br>**
-  我们提供[ 53AI Hub 云服务](https://hub.53ai.com)，用户可以在线申请开通。它提供了53AI Hub的全部功能，在免费版本中支持接入20个智能体及100个注册用户。
+  我们提供[ 53AI Hub 云服务](https://hub.53ai.com)，用户可以在线申请开通。云服务包含免费版、标准版和企业版，企业版提供了53AI Hub的全部功能，在免费版本中支持接入10个智能体及100个注册用户。
 * **社区版</br>**
+  人员规模小于200人或营业收入低于5000万的中小企业和创业团队可以将免费使用社区版
   使用这个[入门指南](#快速启动)快速在您自己的服务器上运行 53AI Hub。
   阅读这个[产品文档](https://docs.53ai.com)进行进一步的参考和更深入的了解。
-* **面向企业的商业版/项目版</br>**
-  我们提供支持内部用户及打通企微、钉钉、飞书组织架构的商业版，如果您需要个性化定制功能。可以给哦我们发送[电子邮件](mailto\:business@53ai.com?subject=\[GitHub]商业授权)讨论你企业的个性化需求。 </br>
+* **旗舰版</br>**
+  我们提供可以私有化部署且打通企微、钉钉、飞书组织架构的旗舰版，如果您需要个性化定制功能。可以给我们发送[电子邮件](mailto\:hub@53ai.com?subject=\[GitHub]商业授权)讨论你企业的个性化需求。 </br>
 
 ## 保持领先
 
 在 GitHub 上给 53AI Hub Star，我们更新产品你将第一时间收到新版本更新的通知。
-
-![star-us](https://github.com/langgenius/dify/assets/13230914/b823edc1-6388-4e25-ad45-2f6b187adbb4)
 
 ## 安装社区版
 
@@ -158,6 +159,13 @@ docker compose up -d
 * [Discord](https://discord.gg/FngNHpbcY7)👉：分享您的应用程序并与社区交流。
 * 微信社群👉：分享您的 AI 门户并与社区交流。
 * [商业许可](mailto\:business@53ai.com?subject=\[GitHub]Business%20License%20Inquiry)。👉：有关商业用途许可 53AI 的商业咨询。
+
+## 合规认证
+
+53AI 已获取以下认证：
+
+* **ISO/IEC 27001:2022  Certification**
+* **ISO 9001:2015**
 
 ## 安全问题
 

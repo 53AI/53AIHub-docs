@@ -1,19 +1,21 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M9.06145 23.1079C5.26816 22.3769 -3.39077 20.6274 1.4173 5.06384C9.6344 6.09939 16.9728 14.0644 9.06145 23.1079Z" fill="url(#paint0_linear_17557_2021)"/>
-<path d="M8.91928 23.0939C5.27642 21.2223 0.78371 4.20891 17.0071 0C20.7569 7.19341 19.6212 16.5452 8.91928 23.0939Z" fill="url(#paint1_linear_17557_2021)"/>
-<path d="M8.91388 23.0788C8.73534 19.8817 10.1585 9.08525 23.5699 13.1107C23.1812 20.1229 18.984 26.4182 8.91388 23.0788Z" fill="url(#paint2_linear_17557_2021)"/>
-<defs>
-<linearGradient id="paint0_linear_17557_2021" x1="3.77557" y1="5.91571" x2="5.23185" y2="21.5589" gradientUnits="userSpaceOnUse">
-<stop stop-color="#18E299"/>
-<stop offset="1" stop-color="#15803D"/>
-</linearGradient>
-<linearGradient id="paint1_linear_17557_2021" x1="12.1711" y1="-0.718425" x2="10.1897" y2="22.9832" gradientUnits="userSpaceOnUse">
-<stop stop-color="#16A34A"/>
-<stop offset="1" stop-color="#4ADE80"/>
-</linearGradient>
-<linearGradient id="paint2_linear_17557_2021" x1="23.1327" y1="15.353" x2="9.33841" y2="18.5196" gradientUnits="userSpaceOnUse">
-<stop stop-color="#4ADE80"/>
-<stop offset="1" stop-color="#0D9373"/>
-</linearGradient>
-</defs>
+<svg id="icon_拷贝" data-name="icon 拷贝" xmlns="http://www.w3.org/2000/svg" width="77.2" height="77.2" viewBox="0 0 772 772">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #2563eb;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="圆角矩形_15_拷贝" data-name="圆角矩形 15 拷贝" class="cls-1" d="M169.938,205.844h435a50,50,0,0,1,50,50v305a50,50,0,0,1-50,50h-435a50,50,0,0,1-50-50v-305A50,50,0,0,1,169.938,205.844ZM465,342h44a40,40,0,0,1,40,40v5a40,40,0,0,1-40,40H465a40,40,0,0,1-40-40v-5A40,40,0,0,1,465,342Zm-206,0h44a40,40,0,0,1,40,40v5a40,40,0,0,1-40,40H259a40,40,0,0,1-40-40v-5A40,40,0,0,1,259,342Z"/>
+  <rect id="圆角矩形_11" data-name="圆角矩形 11" class="cls-2" x="342.75" y="541.844" width="62.781" height="138.437" rx="1.94" ry="1.94"/>
+  <path id="圆角矩形_11_拷贝" data-name="圆角矩形 11 拷贝" class="cls-1" d="M496.613,564.778c12.026,12.539,13.334,30.8,2.92,40.791l-105.6,101.285c-10.415,9.989-28.607,7.922-40.634-4.617s-13.334-30.8-2.92-40.79l105.6-101.286C466.394,550.172,484.586,552.239,496.613,564.778Z"/>
+  <rect id="圆角矩形_10" data-name="圆角矩形 10" class="cls-2" x="292.125" y="172.5" width="202" height="88" rx="40" ry="40"/>
+  <rect id="矩形_2" data-name="矩形 2" class="cls-2" x="368.219" y="134.344" width="50.219" height="125.75"/>
+  <ellipse id="椭圆_7" data-name="椭圆 7" class="cls-2" cx="393.25" cy="103.25" rx="44.312" ry="43.875"/>
+  <path id="圆角矩形_14_拷贝" data-name="圆角矩形 14 拷贝" class="cls-1" d="M95.4,332.818a62.919,62.919,0,0,0-62.919,62.919v25.168A62.919,62.919,0,0,0,95.4,483.824"/>
+  <path id="圆角矩形_14_拷贝_2" data-name="圆角矩形 14 拷贝 2" class="cls-1" d="M674.332,335.811c35.87,0,64.948,27.224,64.948,60.807v24.323c0,33.583-29.078,60.808-64.948,60.808"/>
 </svg>

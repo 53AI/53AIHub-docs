@@ -15,24 +15,23 @@
 <a href="https://aihub.53ai.com">Demo Site</a>
 </div>
 
-**53AI Hub** is an **open-source AI portal**. It enables you to quickly build a production-level AI portal to publish and operate AI agents, prompts, and AI tools. It supports seamless integration with development platforms like **Coze, Dify, FastGPT, RAGFlow, and 53AI Studio**, and cloud platforms such as **Aliyun , Tencent Cloud , and Baidu Cloud**, helping developers and enterprises build production-ready AI portals without complex integrations. Even users with no technical background can participate easily, significantly lowering the barrier to AI adoption.
+**53AI Hub** is an **open-source AI portal**, which enables you to quickly build a operational-level AI portal to launch and operate AI agents, prompts, and AI tools. It supports seamless integration with development platforms like **Coze, Dify, FastGPT, RAGFlow, and 53AI Studio**, and cloud platforms such as **Aliyun , Tencent Cloud , and Baidu Cloud**, helping developers and enterprises build production-grade AI portals without complex integrations. Even users with no technical background can participate easily, significantly lowering the barrier to AI inplementation.
 
-Key features include:
+Key features are as follows:
 
 **1. Platform Integration**:
-Connect with mainstream AI agent development platforms, cloud platforms, and LLM platforms. Choose from site templates and styles, and customize the interface.
+Supports integration with mainstream agent development platforms, cloud services, and large language model platforms. Users can choose from site templates and styles, and customize the interface as needed.
 
 **2. Application Management**:
-Manage and publish AI agents, prompts, and tools. Set up grouping, sorting, and access permissions.
+Provides full lifecycle management for AI agents, prompts, and AI tools, including publishing, grouping, sorting, and user permission configuration.
 
 **3. User Operations**:
-Operate both registered and internal users, view login and usage logs.
+Supports the operation of both registered users and internal users, with the ability to manage and view login and usage records.
 
 **4. Independent Deployment**:
 Supports one-click deployment on both cloud and local environments, and binding to a custom domain name.
 
 ## Product Comparison
-
 
 | Feature            | 53AI Hub                | NextChat    | lobehub     | Cherry Studio |
 | ------------------ | ----------------------- | ----------- | ----------- | ------------- |
@@ -73,7 +72,7 @@ cp .env.example .env
 docker compose up -d
 ```
 
-Then visit [`http://localhost`](http://localhost) to access the admin panel and begin setup.
+Then visit [`http://localhost`](http://localhost) to access the administration panel and begin setup.
 
 ### Custom Configuration
 
@@ -102,3 +101,4 @@ This repository is licensed under the [53AI Open Source License](https://docs.53
 ## Follow Us
 
 Star 53AI Hub on GitHub to get notified about updates and new releases.
+

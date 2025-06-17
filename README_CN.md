@@ -14,7 +14,6 @@
 <a href="https://docs.53ai.com/">产品文档</a> ·
 <a href="https://aihub.53ai.com">演示站</a>
 
-
 </div>
 
 **53AI Hub** 是一款**开源的AI门户**。它可以让你快速搭建一个运营级的AI门户，实现对智能体、提示词与AI工具的发布与运营。它支持无缝对接**字节扣子、腾讯元器、Dify、FastGPT、RAGFlow、53AI Studio**等智能体开发平台，以及**阿里百炼、腾讯云智能体开发平台、火山方舟、百度千帆 AppBuild**等云计算平台，让开发者和企业能够快速搭建生产运营级的 AI 门户，无需复杂的技术整合流程。即使是没有技术背景的人员，也能轻松参与智能体发布和运营，极大降低了 AI 应用落地的门槛。
@@ -136,6 +135,10 @@ docker compose up -d
 如果您需要自定义配置，请参考 `.env.example`文件中的注释，复制一个改名为 `.env`并更新文件中对应的值。
 此外，您可能需要根据您的具体部署环境和需求对 `docker-compose.yaml`文件本身进行调整，例如更改镜像版本、端口映射或卷挂载。完成任何更改后，请重新运行 `docker-compose up -d`。您可以在此处找到可用环境变量的完整列表。
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=53AI/53AIhub&type=Date)](https://star-history.com/#53AI/53AIhub&Date)
+
 ## 参与项目
 
 > 我们在寻找贡献者来帮助将 53AI Hub 翻译成英文之外的其他语言，如果您有兴趣参与，请通联系我们。
@@ -159,3 +162,4 @@ docker compose up -d
 ## 关注我们
 
 在 GitHub 上给 53AI Hub Star，我们更新产品你将第一时间收到新版本更新的通知。
+

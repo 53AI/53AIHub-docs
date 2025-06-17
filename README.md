@@ -76,7 +76,12 @@ Then visit [`http://localhost`](http://localhost) to access the administration p
 
 ### Custom Configuration
 
-Refer to the comments in `.env.example`, copy and rename it to `.env`, and edit the values. You may also modify `docker-compose.yaml` for things like image versions, port mappings, or volume mounts. After changes, rerun `docker-compose up -d`.
+Refer to the comments in `.env.example`, copy and rename it to `.env`, and edit the values. You may also modify `docker-compose.yaml` for things like image versions, port mappings, or volume mounts. After changes, rerun `docker-compose up -d`. You can find the full list of available environment variables here.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=53AI/53AIhub&type=Date)](https://star-history.com/#53AI/53AIhub&Date)
+
 
 ## Contributing
 

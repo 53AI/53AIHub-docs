@@ -1,0 +1,2 @@
+# 忽略根目录下的 .vitepress 目录及其所有子内容
+/.vitepress/

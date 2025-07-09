@@ -1,109 +1,44 @@
 <div align="center">
-  <a href="https://www.53ai.com/products/53AIHub"><img alt="Product Introduction Page" src="https://oss.ibos.cn/53ai/common/53AIHub_banner.png"></a>
+  <a href="./README.md"><img alt="README in English" src="https://img.shields.io/badge/English-d9d9d9"></a>
+  <a href="./README_CN.md"><img alt="简体中文版自述文件" src="https://img.shields.io/badge/简体中文-d9d9d9"></a>
+  <a href="./README_JA.md"><img alt="日本語のREADME" src="https://img.shields.io/badge/日本語-d9d9d9"></a>
 </div>
 
-<div align="center">
-<a href="./README.md"><img alt="README in English" src="https://img.shields.io/badge/English-d9d9d9"></a>
-<a href="./README_CN.md"><img alt="Simplified Chinese README" src="https://img.shields.io/badge/简体中文-d9d9d9"></a>
-<a href="./README_JA.md"><img alt="Japanese README" src="https://img.shields.io/badge/日本語-d9d9d9"></a>
-</div>
+## 53AI Hub
 
-<div>
-<a href="https://hub.53ai.com">Cloud Service</a> ·
-<a href="https://docs.53ai.com/%E5%85%A5%E9%97%A8/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2">Local Deployment</a> ·
-<a href="https://docs.53ai.com/">Documentation</a> ·
-<a href="https://aihub.53ai.com">Demo Site</a>
-</div>
+Over the past two years, through deep involvement in delivering and supporting large model applications for hundreds of enterprises, we've identified a key trend: many internal AI pioneers within companies have already built diverse AI agent applications using platforms like **Coze**, **Dify**, **FastGPT**, and **RagFlow**, actively exploring a new wave of productivity through human-AI collaboration. These agents have demonstrated significant efficiency gains in scenarios such as customer service, data analysis, and process automation.
 
-**53AI Hub** is an **open-source AI portal**, which enables you to quickly build a operational-level AI portal to launch and operate AI agents, prompts, and AI tools. It supports seamless integration with development platforms like **Coze, Dify, FastGPT, RAGFlow, and 53AI Studio**, and cloud platforms such as **Aliyun , Tencent Cloud , and Baidu Cloud**, helping developers and enterprises build production-grade AI portals without complex integrations. Even users with no technical background can participate easily, significantly lowering the barrier to AI inplementation.
+Currently, however, these innovative applications are often used only in small scopes or isolated across different departments. The AI productivity built by individual agents has yet to circulate widely across organizations and generate large-scale value.
 
-Key features are as follows:
+To address this, in **February 2025**, we proposed the idea of **53AI Hub** — aiming to build a **out-of-the-box AI portal** that visually aggregates and centrally manages departmental AI applications from various agent development platforms through standardized interface integration. It not only serves as a platform for developers to incubate ideas and engage users, but also allows enterprise users to access and use AI applications from multiple platforms via a single entry , making the leap from “scenario-level efficiency” to **enterprise-wide AI productivity**.
 
-**1. Platform Integration**:
-Supports integration with mainstream agent development platforms, cloud services, and large language model platforms. Users can choose from site templates and styles, and customize the interface as needed.
+Our vision for 53AI Hub is to break through the boundaries of individual AI agent innovations and enable AI productivity to circulate efficiently across broader business scenarios.
 
-**2. Application Management**:
-Provides full lifecycle management for AI agents, prompts, and AI tools, including publishing, grouping, sorting, and user permission configuration.
+* On **May 18, 2025**, we released **53AI Hub version 0.1.0**
+* On **May 29, 2025**, we released **53AI Hub version 0.1.1**
+* On **June 12, 2025**, we released **53AI Hub version 0.1.2**
+* On **June 19, 2025**, we released **53AI Hub version 0.1.3**
+* On **June 26, 2025,** we released **53AI Hub version 0.1.4**
 
-**3. User Operations**:
-Supports the operation of both registered users and internal users, with the ability to manage and view login and usage records.
+---
 
-**4. Independent Deployment**:
-Supports one-click deployment on both cloud and local environments, and binding to a custom domain name.
+## 53AI
 
-## Product Comparison
+The founder of 53AI, **Yang Fangxian**, is a seasoned open-source developer and a **Tencent Cloud Valuable Professional (TVP)**. In 2017, he led the development of the first WeChat business card mini program, which surpassed 10 million users in just 69 days.
 
-| Feature            | 53AI Hub                | NextChat    | lobehub     | Cherry Studio |
-| ------------------ | ----------------------- | ----------- | ----------- | ------------- |
-| Custom Interface   | Multiple styles         | Fixed style | Fixed style | Fixed style   |
-| Access Permissions | Enterprise-grade        | None        | None        | None          |
-| Agent Integration  | ✅                      | ❌          | ❌          | ❌            |
-| LLM Integration    | ✅                      | ✅          | ✅          | ✅            |
-| Registered Users   | ✅                      | ✅          | ✅          | ✅            |
-| Internal Users     | ✅                      | ❌          | ❌          | ❌            |
-| SSO Support        | WeCom, DingTalk, Feishu | ❌          | ❌          | ❌            |
-| Local Deployment   | ✅                      | ✅          | ✅          | ✅            |
+In January 2023, he co-founded the **LangGPT** structured prompt community with Yunzhong Jiangshu. LangGPT's open-source documentation has served over **30,000 prompt engineers**. Together with the community, they co-developed a practical enterprise LLM inplementation methodology — from **"Work + AI"**, to **"Business + AI"**, and ultimately realizing **"AI × Business"** integration.
 
-## Usage
+In March 2023, the 53AI team launched **53AI Studio**, an enterprise-grade AI agent training and orchestration platform. To date, it has helped hundreds of mid-to-large enterprises implement large language models in real-world applications.
 
-* **Cloud Service**
-  Visit [53AI Hub Cloud Service](https://hub.53ai.com) to apply. The cloud service includes Free, Standard, and Enterprise editions. The Enterprise version offers all features, and the Free version supports 10 agents and 100 registered users.
-* **Community Open Source Edition**
-  Refer to our [Getting Started Guide](https://docs.53ai.com/%E5%85%A5%E9%97%A8/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8) for quick local deployment and our [Documentation](https://docs.53ai.com) for in-depth usage.
-* **Enterprise Customized Edition**
-  We offer enterprise custom versions with features like integration with WeCom, DingTalk, and Feishu org structures. For custom needs, contact us via [email](mailto:hub@53ai.com?subject=[GitHub]Customization).
+In May 2025, the team released the open-source **53AI Hub**, a **cross-platform AI agent deployment and operation portal**.
 
-## Installing the Community Edition
+---
 
-### System Requirements
+**Contact Information**
 
-Minimum configuration for installing 53AI Hub:
+* **GitHub Discussion**: Share your use cases and feature requests
+* **GitHub Issues**: Report bugs encountered while using 53AI Hub
+* **WeChat**: 18688881188 (Business cooperation only; not a support hotline)
+* **Email**: [Email：hub@53ai.com](mailto:hub@53ai.com) (Join our team)
 
-* CPU ≥ 1 Core
-* RAM ≥ 2 GiB
-
-### Quick Installation
-
-The easiest way to install the community edition is by using our [docker-compose.yml](docker/docker-compose.yaml). Make sure Docker and Docker Compose are installed:
-
-```bash
-cd docker
-cp .env.example .env
-docker compose up -d
-```
-
-Then visit [`http://localhost`](http://localhost) to access the administration panel and begin setup.
-
-### Custom Configuration
-
-Refer to the comments in `.env.example`, copy and rename it to `.env`, and edit the values. You may also modify `docker-compose.yaml` for things like image versions, port mappings, or volume mounts. After changes, rerun `docker-compose up -d`. You can find the full list of available environment variables here.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=53AI/53AIhub&type=Date)](https://star-history.com/#53AI/53AIhub&Date)
-
-
-## Contributing
-
-> We're seeking contributors to help translate 53AI Hub into more languages. Interested? Get in touch!
-
-We welcome your contributions—whether code, ideas, or issues. Feel free to share 53AI Hub at events, in talks, or on social media.
-
-* [GitHub Discussion](https://github.com/53ai/53aihub/discussions): Share your apps and ideas with the community.
-* [GitHub Issues](https://github.com/53ai/53aihub/issues): Report bugs or problems.
-
-## Compliance Certifications
-
-53AI has obtained the following certifications:
-
-* **ISO/IEC 27001:2022 – Information Security Management Systems**
-* **ISO 9001:2015 – Quality Management Systems**
-
-## License
-
-This repository is licensed under the [53AI Open Source License](https://docs.53ai.com/%E5%85%A5%E9%97%A8/%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE), which is based on Apache 2.0 with additional restrictions.
-
-## Follow Us
-
-Star 53AI Hub on GitHub to get notified about updates and new releases.
-
+We look forward to becoming **a leading force in AI productivity**  together with you.

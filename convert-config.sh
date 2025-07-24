@@ -84,13 +84,6 @@ export default defineConfig({
     "http://localhost:3000"
   ],
   head: [
-    // 声明默认 Favicon（浏览器标签栏图标）
-    {
-      rel: 'icon',
-      type: 'image/svg+xml',  // .svg 格式用此类型
-      href: '/favicon.svg'
-    },
-    // 百度统计
     {
       script: [
         'var _hmt = _hmt || [];',

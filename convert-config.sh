@@ -84,17 +84,16 @@ export default defineConfig({
     "http://localhost:3000"
   ],
   head: [
-    {
-      script: [
-        'var _hmt = _hmt || [];',
-        '(function() {',
-        '  var hm = document.createElement("script");',
-        '  hm.src = "https://hm.baidu.com/hm.js?2909a807282d29537229722a2ac6b45e";',
-        '  var s = document.getElementsByTagName("script")[0];',
-        '  s.parentNode.insertBefore(hm, s);',
-        '})();'
-      ]
-    }
+    // 百度统计
+    ["script", {}, \`
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?2909a807282d29537229722a2ac6b45e";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    \`]
   ],
   themeConfig: {
     logo: '/logo/light.svg', 

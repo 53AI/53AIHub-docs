@@ -83,6 +83,26 @@ export default defineConfig({
     // 或精确忽略特定链接
     "http://localhost:3000"
   ],
+  head: [
+    // 声明默认 Favicon（浏览器标签栏图标）
+    {
+      rel: 'icon',
+      type: 'image/svg+xml',  // .svg 格式用此类型
+      href: '/favicon.svg'
+    },
+    // 百度统计
+    {
+      script: [
+        'var _hmt = _hmt || [];',
+        '(function() {',
+        '  var hm = document.createElement("script");',
+        '  hm.src = "https://hm.baidu.com/hm.js?2909a807282d29537229722a2ac6b45e";',
+        '  var s = document.getElementsByTagName("script")[0];',
+        '  s.parentNode.insertBefore(hm, s);',
+        '})();'
+      ]
+    }
+  ],
   themeConfig: {
     logo: '/logo/light.svg', 
     darkLogo: '/logo/dark.svg',

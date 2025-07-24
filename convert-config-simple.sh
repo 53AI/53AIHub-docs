@@ -146,6 +146,7 @@ generate_sidebar() {
 EOF
 }
 
+
 # 生成完整的VitePress配置
 generate_vitepress_config() {
     local title="$1"

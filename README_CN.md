@@ -108,8 +108,8 @@
   通过[入门指南](https://docs.53ai.com/%E5%85%A5%E9%97%A8/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8)快速进行本地部署，阅读[产品文档](https://docs.53ai.com)进行更深入的了解。
 * **企业定制版</br>**
   我们提供可以企业定制版，具有包括不限于打通企微、钉钉、飞书组织架构等企业级产品特性，如果你需要个性化定制，也可以通过[电子邮件](mailto\:hub@53ai.com?subject=\[GitHub]个性定制)讨论你的个性化需求。 </br>
-  
-  ## 安装社区版
+
+## 安装社区版
 
 ### 系统要求
 
@@ -124,18 +124,16 @@
 
 ```bash
 cd docker
+cp .env.example .env
 docker compose up -d
 ```
 
-运行后，可以在浏览器上访问 [`http://localhost:3000`](http://localhost:3000) 进入 53AI Hub 并开始初始化配置操作
-默认的账号密码是`admin@53ai.com` 密码`admin888`。
+运行后，可以在浏览器上访问 [`http://localhost`](http://localhost) 进入 53AI Hub 管理后台并开始初始化安装操作。
 
 ### 自定义配置
 
 如果您需要自定义配置，请参考 `.env.example`文件中的注释，复制一个改名为 `.env`并更新文件中对应的值。
 此外，您可能需要根据您的具体部署环境和需求对 `docker-compose.yaml`文件本身进行调整，例如更改镜像版本、端口映射或卷挂载。完成任何更改后，请重新运行 `docker-compose up -d`。您可以在此处找到可用环境变量的完整列表。
-
-
 
 ## Star History
 
@@ -155,7 +153,6 @@ docker compose up -d
 <a href="https://github.com/langgenius/dify/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=53AI/53AIHub" />
 </a>
-
 ## 合规认证
 
 53AI 已获取以下认证：

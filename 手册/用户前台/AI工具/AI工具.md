@@ -11,17 +11,17 @@
 
 2、鼠标移动到对应工具，可根据需求将工具加入快捷方式使用及查看共享账号。
 
-![alt text](image-5.png)
+![alt text](image-7.png)
 
-![alt text](image-6.png)
+![alt text](image-8.png)
 
 -软件风格：快捷方式展示在页面的左下角
 
-![alt text](image-3.png)
+![alt text](image-9.png)
 
 -网站风格：快捷方式展示在首页
 
-![alt text](image-4.png)
+![alt text](image-10.png)
 
 
 
